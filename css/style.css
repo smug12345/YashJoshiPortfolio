@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> 2d265df8bd5e533babd91ae4f9a0c2037eebe843
 
 body {
   background-color: #f5f5f5;
@@ -75,21 +72,7 @@ a:hover {
   margin-right: 4px;
   overflow: hidden;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-.header{
-  background-image: url('https://cdn.pixabay.com/photo/2015/12/05/08/25/painting-1077863_1280.jpg');
-}
 
-=======
- .header
-{
-  background-image: url('https://cdn.pixabay.com/photo/2015/12/05/08/25/painting-1077863_1280.jpg');
-}
->>>>>>> 2d265df8bd5e533babd91ae4f9a0c2037eebe843
-=======
-
->>>>>>> 10ed4c5491b77ef5d46bce5407c7c147a9c9b45f
 .bg-image {
   background-repeat: no-repeat;
   background-attachment: fixed;
