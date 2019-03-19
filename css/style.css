@@ -71,10 +71,7 @@ a:hover {
   margin-right: 4px;
   overflow: hidden;
 }
- .header
-{
-  background-image: url('https://cdn.pixabay.com/photo/2015/12/05/08/25/painting-1077863_1280.jpg');
-}
+
 .bg-image {
   background-repeat: no-repeat;
   background-attachment: fixed;
