@@ -596,7 +596,14 @@ a:hover {
   position: relative;
   color: #fff;
 }
-
+.header {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('https://cdn.pixabay.com/photo/2015/12/05/08/25/painting-1077863_1280.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .intro .intro-content {
   text-align: center;
   position: absolute;
