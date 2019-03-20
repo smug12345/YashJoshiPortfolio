@@ -1,5 +1,4 @@
 
-
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
@@ -44,7 +43,7 @@ a:hover {
 .box-shadow,
 .paralax-mf,
 .hobbies-box,
-.work-box,
+.hobbies-box,
 .card-tools {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
@@ -74,6 +73,7 @@ a:hover {
 }
 
 .bg-image {
+
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -81,7 +81,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #5d7293;
+  background-color: #040405;
 }
 
 .overlay-mf {
@@ -171,7 +171,7 @@ a:hover {
   position: absolute;
   height: 3px;
   background-color: #0078ff;
-  width: 100px;
+  width: 4.4em;
   bottom: -12px;
 }
 
@@ -662,17 +662,17 @@ a:hover {
 //--//-->   ABOUT
 ======================================*/
 
-.about-mf .box-shadow-full {
+.about-me .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
-.about-mf .about-img {
+.about-me .about-img {
   margin-bottom: 2rem;
 }
 
-.about-mf .about-img img {
-  margin-left: 10px;
+.about-me .about-img img {
+  margin-left: 7px;
 }
 
 .skill-mf span {
@@ -759,51 +759,51 @@ a:hover {
 //--//-->   PORTFOLIO
 ======================================*/
 
-.work-box {
+.hobbies-box {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
 }
 
-.work-box:hover img {
+.hobbies-box:hover img {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
 }
 
-.work-img {
+.hobbies-img {
   display: block;
   overflow: hidden;
 }
 
-.work-img img {
+.hobbies-img img {
   transition: all 1s;
 }
 
-.work-content {
+.hobbies-content {
   padding: 2rem 3% 1rem 4%;
 }
 
-.work-content .w-more {
+.hobbies-content .w-more {
   color: #4e4e4e;
   font-size: .8rem;
 }
 
-.work-content .w-more .w-ctegory {
+.hobbies-content .w-more .w-ctegory {
   color: #0078ff;
 }
 
-.work-content .w-like {
+.hobbies-content .w-like {
   font-size: 2.5rem;
   color: #0078ff;
   float: right;
 }
 
-.work-content .w-like a {
+.hobbies-content .w-like a {
   color: #0078ff;
 }
 
-.work-content .w-like .num-like {
+.hobbies-content .w-like .num-like {
   font-size: .7rem;
 }
 
@@ -817,7 +817,9 @@ a:hover {
 
 .testimonials .owl-carousel .owl-item img {
   width: auto;
+  color: #040405;
 }
+
 
 .testimonial-box {
   color: #fff;
@@ -853,9 +855,7 @@ a:hover {
   line-height: 1.6;
 }
 
-/*======================================
-//--//-->   tools
-======================================*/
+/*Hobbies-Tools*/
 
 .card-tools .card-body {
   position: relative;
@@ -864,9 +864,10 @@ a:hover {
 .card-tools .card-category-box {
   position: absolute;
   text-align: center;
-  top: -16px;
+  top:10px;
   left: 15px;
   right: 15px;
+  bottom:20px;
   line-height: 25px;
   overflow: hidden;
 }
@@ -885,17 +886,18 @@ a:hover {
   display: inline-block;
   text-transform: uppercase;
   font-size: .7rem;
-  letter-spacing: .1px;
-  margin-bottom: 0;
+  
+  margin-bottom: 2px;
 }
 
 .card-tools .card-title {
   font-size: 1.3rem;
-  margin-top: .6rem;
+  margin-top: 2rem;
 }
 
 .card-tools .card-description {
   color: #4e4e4e;
+  margin-top:30px;
 }
 
 .card-tools .post-author {
