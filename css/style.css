@@ -71,11 +71,16 @@ a:hover {
   margin-right: 4px;
   overflow: hidden;
 }
-
+.header
+{
+  position: relative;
+  background-image: url('https://www.imgnooz.com/sites/default/files/styles/1920x1080/public/wallpaper/space/62513/astronaut-wallpapers-62513-9254504.png?itok=nYudjj0C');
+  background-size: cover;
+  background-position: center;
+}
 .bg-image {
 
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   background-position: center center;
 }
