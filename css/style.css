@@ -860,7 +860,12 @@ a:hover {
   line-height: 1.6;
 }
 
-/*Hobbies-Tools*/
+/*Tools*/
+
+.card-space
+{
+  margin-bottom: 30px;
+}
 
 .card-tools .card-body {
   position: relative;
@@ -1086,7 +1091,7 @@ footer .credits a {
 }
 
 /*======================================
-//--//-->   CONtaCT FORM
+//-------->FORM<----------
 ======================================*/
 
 #sendmessage {
